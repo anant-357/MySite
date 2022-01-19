@@ -2,6 +2,15 @@ body{
   background-color: #C2E5E5;
   font-family: Montserrat;
   margin:0;
+
+}
+#home{
+  animation-name: bacolor;
+  animation-duration: 3s;
+}
+@keyframes bacolor {
+  from {background-color: black;}
+  to {background-color: #C2E5E5;}
 }
 
 header{
@@ -36,6 +45,7 @@ nav li{
 }
 
 nav a{
+  font-size: 18px;
   text-decoration: none;
   color: black;
 }
@@ -48,6 +58,15 @@ nav a{
 .hi2{
   font-size: 34px;
   text-align: center;
+}
+#homid{
+  animation-name: textintro;
+  animation-duration: 6s;
+  color: black;
+}
+@keyframes textintro{
+  50%{color: #C2E5E5;}
+  100%{top:black;}
 }
 ul{
   list-style-type: none;
@@ -76,4 +95,3 @@ ul{
 form{
   text-align: center;
 }
-
