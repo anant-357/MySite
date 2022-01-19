@@ -61,12 +61,14 @@ nav a{
 }
 #homid{
   animation-name: textintro;
-  animation-duration: 6s;
+  animation-duration: 12s;
+  animation-fill-mode: forwards;
   color: black;
 }
 @keyframes textintro{
-  50%{color: #C2E5E5;}
-  100%{top:black;}
+  25%{color: #C2E5E5;}
+  62.5%{color:black;}
+  100%{color: #C2E5E5}
 }
 ul{
   list-style-type: none;
