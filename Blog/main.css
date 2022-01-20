@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(163, 131, 131);
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(158, 88, 88);
+    border-radius: 50px;
+  }
+  body {
+    font-family: Garamond, Helvetica, sans-serif;
+    background-color: white;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+  }
+  header {
+    text-align: center;
+    background-color: rgb(158, 88, 88);
+    color: white;
+    padding: 50px;
+  }
+  #head{
+    font-size: 78px;
+    margin-bottom: 20px;
+    padding: 0;
+  } 
+
+  #navig{
+    list-style: none; 
+    font-family: Calibri;   
+  }
+
+  #navig li{
+    display: inline;
+    padding: 4.5%;
+    font-size: 20px;    
+  }
+
+  a{
+      text-decoration: none;
+      color: rgb(209, 209, 209);      
+  }
+
+  main {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;    
+  }
+
+  article {
+    background-color: rgb(163, 131, 131);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  article:last-child {
+    margin-bottom: 0;
+  }
+  article h3 {
+    margin: 10px 0 25px 0;
+  }
+  article p {
+    margin-top: 16px;
+    line-height: 24px;
+  }
+  footer {
+    text-align: center;
+    background-color: rgb(158, 88, 88);
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* position: fixed;
+    z-index: 1; */
+  }
+  
+  @media(max-width:768px) {
+    header { padding: 30px 20px; }
+    header h1 { font-size: 36px; margin-bottom: 22px; }
+    header p { font-size: 18px; }
+    main { width: 100vw; padding: 20px; }
+    article { margin-bottom: 16px; font-size: 14px; }
+    article h3 { margin: 10px 0 20px 0; }
+    article p { margin-top: 16px; line-height: 20px; }
+  }
