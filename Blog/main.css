@@ -5,20 +5,20 @@
   }
   /* width */
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
   }
-  
+
   /* Track */
   ::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
-  
+
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: rgb(163, 131, 131);
     border-radius: 50px;
   }
-  
+
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(158, 88, 88);
@@ -41,28 +41,28 @@
     font-size: 78px;
     margin-bottom: 20px;
     padding: 0;
-  } 
+  }
 
   #navig{
-    list-style: none; 
-    font-family: Calibri;   
+    list-style: none;
+    font-family: Calibri;
   }
 
   #navig li{
     display: inline;
     padding: 4.5%;
-    font-size: 20px;    
+    font-size: 20px;
   }
 
   a{
       text-decoration: none;
-      color: rgb(209, 209, 209);      
+      color: rgb(209, 209, 209);
   }
 
   main {
     width: 90vw;
     margin: 0 auto;
-    padding: 30px 20px;    
+    padding: 30px 20px;
   }
 
   article {
@@ -93,7 +93,7 @@
     /* position: fixed;
     z-index: 1; */
   }
-  
+
   @media(max-width:768px) {
     header { padding: 30px 20px; }
     header h1 { font-size: 36px; margin-bottom: 22px; }
